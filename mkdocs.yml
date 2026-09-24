@@ -1,0 +1,14 @@
+site_name: My Docs
+theme:
+  name: risonia
+  palette:
+    # Mode clar (per defecte)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    # Mode fosc automàtic
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
