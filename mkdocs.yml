@@ -1,14 +1,25 @@
-site_name: My Docs
+site_name: Pràctiques ASIR
+
 theme:
   name: risonia
   palette:
-    # Mode clar (per defecte)
+    # Mode clar
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
-    # Mode fosc automàtic
+
+    # Mode fosc
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: indigo
+
+nav:
+  - Inici: index.md
+  - Pràctiques:
+      - Índex: practicas/index.md
+      - Pràctica 1 - Branques i unions: practicas/practica-1.md
+      - Pràctica 2 - GitHub i Pull Request: practicas/practica-2.md
+      - Pràctica 3 - MkDocs i GitHub Pages: practicas/practica-3.md
+      - Pràctica 4 - Desplegament en GitHub Pages: practicas/practica-4.md
